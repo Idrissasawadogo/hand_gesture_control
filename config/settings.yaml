@@ -1,0 +1,15 @@
+# Paramètres initiaux à compléter
+camera:
+  index: 0
+  width: 640
+  height: 480
+mediapipe:
+  detection_confidence: 0.5
+  presence_confidence: 0.5
+  tracking_confidence: 0.5
+serial:
+  port: COM3
+  baudrate: 115200
+  reconnect: true
+pins: [2, 3, 4, 5, 6]
+stabilization_frames: 5

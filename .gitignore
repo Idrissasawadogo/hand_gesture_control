@@ -1,0 +1,16 @@
+# Environnements Python
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Données brutes et journaux
+data/samples/*
+data/logs/*
+!data/samples/.gitkeep
+!data/logs/.gitkeep
+
+# Modèle MediaPipe (à récupérer séparément)
+models/hand_landmarker.task
